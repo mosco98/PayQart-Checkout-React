@@ -1,0 +1,42 @@
+.step {
+  border-radius: 50%;
+  background-color: #CBCBCB;
+  padding: 1px 8px !important;
+}
+
+.progressbar {
+  max-width: 40px;
+  min-width: 15px;
+  width: 90%;
+  background-color: #CBCBCB;
+  position: relative;
+  height: 5px;
+  // border: 1px solid #707070;
+  display: flex;
+  justify-content: center;
+  margin: auto 0px !important;
+}
+
+.check-steps {
+  position: relative;
+  // width: auto;
+  // top: 5vh;
+
+  nav {
+    width: auto;
+
+  }
+
+  b {
+    color: #fff
+  }
+
+  i {
+    color: #fff;
+    font-size: 11px;
+  }
+}
+
+.complete {
+  background-color: #FF005E;
+}

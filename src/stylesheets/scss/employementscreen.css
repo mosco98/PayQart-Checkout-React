@@ -1,0 +1,73 @@
+.options {
+  word-wrap: break-word;
+  line-height: 17px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.options:focus {
+  outline: 2px solid #710157;
+  padding: 2px !important;
+}
+
+.options:hover {
+  outline: 2px solid #710157;
+}
+
+.imgtxt {
+  font-size: 13px;
+  line-height: 14px;
+}
+
+#occu-text {
+  color: #720056;
+}
+
+@media only screen and (max-width: 600px) {
+  .boxs {
+    margin: 0 !important;
+  }
+  .pager .col {
+    padding: 5px !important;
+  }
+}
+
+.continuebutton {
+  position: relative;
+  bottom: 40px;
+  margin: 100px 0 10px 0 !important;
+}
+
+.continuebutton #bottombutton {
+  padding: 7px 30px !important;
+  background: linear-gradient(223.39deg, #ff005e 0%, #720056 64.05%);
+  border-radius: 9px;
+  border: none;
+}
+
+.continuebutton #bottombutton:disabled {
+  background: #AFAFAF;
+}
+
+.continuebutton #bottombutton:hover {
+  background: linear-gradient(223.39deg, #852648 0%, #ff005e 70.05%);
+}
+
+.stps {
+  position: relative;
+  margin-bottom: 10px !important;
+  top: 3vh;
+}
+
+.f-row {
+  position: relative;
+  top: 3vh;
+}
+
+.pager {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+/*# sourceMappingURL=employementscreen.css.map */

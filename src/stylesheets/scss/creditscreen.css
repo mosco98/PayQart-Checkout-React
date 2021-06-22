@@ -1,0 +1,92 @@
+.creditscreen {
+  height: 100vh;
+  position: relative;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.creditscreen .container,
+.creditscreen .container-fluid,
+.creditscreen .container-lg,
+.creditscreen .container-md,
+.creditscreen .container-sm,
+.creditscreen .container-xl,
+.creditscreen .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem) !important;
+  padding-left: var(--bs-gutter-x, 0.75rem) !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: 30px !important;
+  position: absolute;
+  top: 13vh;
+}
+
+.creditscreen .container .row .col,
+.creditscreen .container .row .boxes,
+.creditscreen .container-fluid .row .col,
+.creditscreen .container-fluid .row .boxes,
+.creditscreen .container-lg .row .col,
+.creditscreen .container-lg .row .boxes,
+.creditscreen .container-md .row .col,
+.creditscreen .container-md .row .boxes,
+.creditscreen .container-sm .row .col,
+.creditscreen .container-sm .row .boxes,
+.creditscreen .container-xl .row .col,
+.creditscreen .container-xl .row .boxes,
+.creditscreen .container-xxl .row .col,
+.creditscreen .container-xxl .row .boxes {
+  border: 2px solid #bebebe;
+  border-radius: 8px;
+  width: 14rem;
+  height: 6rem;
+  padding: 5px 5px 5px 15px !important;
+}
+
+.creditscreen .container .row .col .text p,
+.creditscreen .container .row .boxes .text p,
+.creditscreen .container-fluid .row .col .text p,
+.creditscreen .container-fluid .row .boxes .text p,
+.creditscreen .container-lg .row .col .text p,
+.creditscreen .container-lg .row .boxes .text p,
+.creditscreen .container-md .row .col .text p,
+.creditscreen .container-md .row .boxes .text p,
+.creditscreen .container-sm .row .col .text p,
+.creditscreen .container-sm .row .boxes .text p,
+.creditscreen .container-xl .row .col .text p,
+.creditscreen .container-xl .row .boxes .text p,
+.creditscreen .container-xxl .row .col .text p,
+.creditscreen .container-xxl .row .boxes .text p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.creditscreen .container .p-box,
+.creditscreen .container-fluid .p-box,
+.creditscreen .container-lg .p-box,
+.creditscreen .container-md .p-box,
+.creditscreen .container-sm .p-box,
+.creditscreen .container-xl .p-box,
+.creditscreen .container-xxl .p-box {
+  width: 28rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .creditscreen .row .boxes,
+  .creditscreen .row .col {
+    margin: 10px auto !important;
+  }
+}
+
+.apply-button button {
+  padding: 10px 24px !important;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(223.39deg, #FF005E 0%, #720056 64.05%);
+}
+
+.apply-button button:hover {
+  background: linear-gradient(223.39deg, #852648 0%, #ff005e 70.05%);
+}
+/*# sourceMappingURL=creditscreen.css.map */

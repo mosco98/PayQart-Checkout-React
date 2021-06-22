@@ -1,0 +1,37 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: "Nunito Sans", sans-serif; }
+  *:hover, *:focus, *:active {
+    outline: none;
+    box-shadow: none !important;
+    -webkit-appearance: none; }
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem) !important;
+  padding-left: var(--bs-gutter-x, 0.75rem) !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  margin-top: 30px !important; }
+
+.successScreen {
+  background: #e5e5e5;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.eligibityscreen {
+  background-color: #e5e5e5; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }

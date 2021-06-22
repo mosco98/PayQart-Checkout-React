@@ -1,0 +1,42 @@
+.lablef {
+  background-color: #fff;
+  color: #710157;
+  padding: 5px 30px !important;
+  // font-family: sans-serif;
+  border-radius: 0.3rem;
+  border-radius: 17px;
+  cursor: pointer;
+  margin-top: 1rem;
+  border: 2px solid #710157;
+  text-align: justify;
+  display: flex;
+  justify-content: space-around;
+  // float: right;
+  // font-size: 13px;
+  
+  i {
+    margin-right: 10px !important;
+  }
+  img {
+    margin-right: 10px !important;
+  }
+  &:hover {
+    background-color: #e5e5e5;
+    border: 2px solid #e5e5e5;
+  }
+}
+
+.fileUpload {
+  padding: 8px 15px !important;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  // max-width: 500px;
+  // min-width: 300px;
+  // width: 90%;
+  // width: 500px;
+  background-color: #fff;
+  align-items: center; 
+  margin-top: 15px !important;
+
+}

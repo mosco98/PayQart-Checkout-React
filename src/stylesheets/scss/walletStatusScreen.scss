@@ -1,0 +1,113 @@
+
+.wallet-root-class {
+    height: 104.3%;
+    background-color: #710157;
+}
+
+.mt-10 {
+    margin-top: 1rem !important;
+}
+
+.background {
+    position: fixed; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    // height: 50%;
+
+    .logo {
+        margin: 1rem;
+        color: white;
+    }
+
+    .header {
+        font-size: 25px;
+        line-height: 34px;
+        color: #720056;
+        margin-top: 1rem !important;
+    }
+
+    .text-p {
+        font-size: 20px;
+        margin: 1rem 0rem !important;
+    }
+
+    .wallet-card {
+        background-color: #fff;
+        position: relative;
+        margin: 2rem 1.5rem !important;
+        border: 1px solid #AFAFAF;
+        box-sizing: border-box;
+        box-shadow: 10px 20px 10px rgba(238, 226, 226, 0.09);
+        border-radius: 15px;
+        height: 90%;
+
+        .shared-card-div {
+            margin: auto !important;
+            padding: 2.5rem !important;
+        }
+
+        h3 {
+            font-size: 24px;
+            line-height: 32px;
+            margin-top: 1rem !important;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 24px;
+            opacity: 0.5;
+        }
+
+        .wallet-button {
+            position: relative;
+            margin-top: 2rem !important;
+
+            #wallet-button-id {        
+
+                padding: 6px 40px !important;
+                border-radius: 5px;
+                margin-right: 3% !important;
+                margin-bottom: 8px !important;
+
+                &:hover {
+                    background: #710157;
+                }
+
+                &:focus {
+                    box-shadow: none !important;
+                    color: #fff;
+                    background: #710157;
+                    outline: none !important;
+                }
+            }
+        }
+    }
+
+    .proceed-button {
+        padding: 8px 60px !important;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        background: #710157;
+
+        &:disabled {
+            color: rgb(114, 114, 114);
+            background-color: #e0e0e0;
+            opacity: 1;
+            cursor: no-drop;
+        }
+
+        &:hover {
+            color: #710157;
+            background-color: #fff;
+        }
+    }
+}

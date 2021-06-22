@@ -1,0 +1,58 @@
+.success {
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  .row {
+    .col {
+      .uploadforms {
+        p {
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+
+  .btn-buttons {
+    margin-top: 40px !important;
+    a {
+      color: #720056;
+      text-decoration: none;
+      font-weight: 500; 
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    span {
+      font-weight: bold;
+    }
+
+    .btom-butn {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      button {
+        padding: 14px 40px !important;
+        background: linear-gradient(223.39deg, #ff005e 0%, #720056 64.05%);
+        border-radius: 12px;
+        border: none;
+        
+        &:hover {
+          background: linear-gradient(223.39deg, #852648 0%, #ff005e 70.05%);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .btom-butn {
+    display: block !important;
+
+    button {
+      margin: 10px 0 !important;
+    }
+  }
+}
